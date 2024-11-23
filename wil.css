@@ -334,14 +334,14 @@
         
         .bottom-nav {
             position: fixed;
-            bottom: 3px;
-            left: 2px;
-            width: 60px;
-            height:160px;
+            bottom: 200px;
+            left: 270px;
+            width: 70px;
+            height:140px;
             background-color: #000;
             color: #fff;
             padding: 1px 1px;
-            text-align: center;
+            text-align: right;
             border-top: 1px solid #000;
             border: 1px solid #000;
             border-radius:30px;
@@ -364,11 +364,10 @@
         }
         
         .icon-btn {
-            font-size: 24px;
+            font-size: 25px;
             vertical-align: middle;
             margin-right: 10px;
         }
         
         
         
-    </style>
