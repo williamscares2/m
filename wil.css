@@ -1,0 +1,374 @@
+.quiz-container {
+    font-size: 30px;
+    text-align: center;
+    border-radius:30px;
+    border-color: #000;
+    background-color: antiquewhite;
+    
+}
+#nextButton {
+    display: none; /* Initially hidden */
+    margin-top: 10px;
+}
+#choices li {
+    list-style: none;
+    margin: 30px 0;
+    cursor: pointer;
+    border-radius:30px;
+    border: 2px solid black;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+    border-radius:30px;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
+    border-radius:30px;
+}
+ .logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+      body {
+           
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+.logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+ .logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+ .post-container {
+            width: 80%;
+            margin: 20px auto;
+            border: 3px solid #000;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .post-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .post-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .post-author {
+            font-weight: bold;
+        }
+        
+        .post-time {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .post-content {
+            margin-bottom: 20px;
+        }
+        
+        .post-image {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        
+        .post-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .post-likes, .post-comments, .post-views {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        
+        .post-likes svg, .post-comments svg, .post-views svg {
+            margin-right: 5px;
+        }
+        
+        .post-likes {
+            color: #f00;
+        }
+        
+        .post-comments {
+            color: #0f0;
+        }
+        
+        .post-views {
+            color: #00f;
+        }
+     .v{
+            width:25px;
+            border-radius: 80px;
+            
+            
+           
+        }
+     .g{
+            width:20px;
+            border-radius: 30px;
+            
+            
+           
+        }
+         .b{
+            width:90px;
+             height:40px;
+            border-radius: 30px;
+             background-color:#000;
+             color:#fff;
+             position:absolute;
+             top: 10%;
+            left: 75%;
+            
+            
+           
+        }
+        
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		
+		th, td {
+			border: 2px solid #000;
+			padding: 10px;
+			text-align: left;
+		}
+		
+		th {
+			background-color: #f0f0f0;
+		}
+		
+		a {
+			text-decoration: none;
+			color: #337ab7;
+		}
+		
+		a:hover {
+			color: #23527c;
+		}
+ body {
+           
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+ body {
+           
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            position: relative;
+        }
+        .w{
+            width:70px;
+            border-radius: 40px;
+           
+            
+          
+           
+       }
+    
+    .img-container {
+        
+  position: relative;
+  display: inline-block;
+}
+
+.img-container img {
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.img-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 60px;
+  box-shadow: 0 0 0 4px rgb(255, 105, 135),  /* Red */
+              0 0 0 8px rgb(255, 215, 0),   /* Yellow */
+              0 0 0 12px rgb(0, 191, 255);  /* Blue */
+  animation: change-color 1s infinite;
+}
+
+@keyframes change-color {
+  0% {
+    box-shadow: 0 0 0 4px rgb(255, 105, 135), 
+                0 0 0 8px rgb(255, 215, 0), 
+                0 0 0 12px rgb(0, 191, 255);
+  }
+  
+}
+        .hhh{
+            width:50px;
+            border-radius: 30px;
+            
+            
+           
+        }
+        
+        .info-container {
+            position: absolute;
+            top: 2000%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: ;
+        }
+        
+        .bottom-nav {
+            position: fixed;
+            bottom: 3px;
+            left: 2px;
+            width: 60px;
+            height:160px;
+            background-color: #000;
+            color: #fff;
+            padding: 1px 1px;
+            text-align: center;
+            border-top: 1px solid #000;
+            border: 1px solid #000;
+            border-radius:30px;
+        }
+        
+        .bottom-nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .bottom-nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        .bottom-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .icon-btn {
+            font-size: 24px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        
+        
+        
+    </style>
