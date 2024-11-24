@@ -204,18 +204,22 @@
 		}
 		
 		th, td {
-			border: 2px solid #000;
-			padding: 10px;
-			text-align: left;
+			border: 2px solid darkgreen;
+			padding: 7px;
+			text-align:none;
 		}
 		
 		th {
-			background-color: #f0f0f0;
+			background-color: lightgreen;
 		}
 		
 		a {
-			text-decoration: none;
-			color: #337ab7;
+			text-decoration:under-line wavy;
+			color: blue ;
+			text-align: left;
+			
+			
+			
 		}
 		
 		a:hover {
@@ -338,7 +342,7 @@
             left: 270px;
             width: 70px;
             height:140px;
-            background-color: #000;
+            background-color: black;
             color: #fff;
             padding: 1px 1px;
             text-align: right;
