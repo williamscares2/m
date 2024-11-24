@@ -1,3 +1,3 @@
 function showPopup() {
-  alert('Download initiated. Please check your downloads folder.');
+  alert('Click Ok to start Download!.');
 }
