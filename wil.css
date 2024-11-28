@@ -47,13 +47,15 @@
         }
       body {
 
-    background-color: #222;
-    color: #fff;
+    /* CSS code to display a background image */
 
-           
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
+
+  background-image:url('i.jpg'); /* Replace with your image path */
+  background-size: cover; /* Adjust image size as needed */
+  background-position: center; /* Adjust image position as needed */
+  background-repeat: repeat; /* Prevent image repetition */
+         color:#fff;   
+          
         }
         .logo-container {
             position: fixed; /* Keep the logo centered */
@@ -103,76 +105,7 @@
             border-radius: 90px;
             
         }
- .post-container {
-            width: 80%;
-            margin: 20px auto;
-            border: 3px solid #000;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        
-        .post-header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-        
-        .post-avatar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            margin-right: 10px;
-        }
-        
-        .post-author {
-            font-weight: bold;
-        }
-        
-        .post-time {
-            color: #666;
-            font-size: 14px;
-        }
-        
-        .post-content {
-            margin-bottom: 20px;
-        }
-        
-        .post-image {
-            width: 100%;
-            height: 200px;
-            border-radius: 10px;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-        
-        .post-actions {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .post-likes, .post-comments, .post-views {
-            display: flex;
-            align-items: center;
-            margin-right: 20px;
-        }
-        
-        .post-likes svg, .post-comments svg, .post-views svg {
-            margin-right: 5px;
-        }
-        
-        .post-likes {
-            color: #f00;
-        }
-        
-        .post-comments {
-            color: #0f0;
-        }
-        
-        .post-views {
-            color: #00f;
-        }
+
      .v{
             width:25px;
             border-radius: 80px;
@@ -287,16 +220,7 @@
             border-radius: 90px;
             
         }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            position: relative;
-
-    background-color: #000;
-    color: #fff;
-        }
+        
         .w{
             width:70px;
             border-radius: 40px;
@@ -400,7 +324,7 @@
             margin: 10px;
             padding: 30px;
 			 
-            border: 2px solid ;
+            border: 2px solid #000;
             border-radius: 30px;
              background-color:gray;
 			 width:280px;
@@ -448,4 +372,4 @@
       font-size: 20px;
     }
 
-	
+			
