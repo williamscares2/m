@@ -46,6 +46,10 @@
             
         }
       body {
+
+    background-color: #222;
+    color: #fff;
+
            
             margin: 0;
             padding: 0;
@@ -197,8 +201,8 @@
 .menu{
             
             border-radius: 7px;
-	width:45px;
-	height:40px;
+	width:40px;
+	height:35px;
              
              position:absolute;
              top: 5%;
@@ -266,12 +270,7 @@
             border-radius: 90px;
             
         }
- body {
-           
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
+ 
         .logo-container {
             position: fixed; /* Keep the logo centered */
             top: 50%;
@@ -294,6 +293,9 @@
             padding: 0;
             background-color: #f0f0f0;
             position: relative;
+
+    background-color: #222;
+    color: #fff;
         }
         .w{
             width:70px;
@@ -398,11 +400,11 @@
             margin: 10px;
             padding: 30px;
 			 
-            border: 2px solid #000;
+            border: 2px solid #fff;
             border-radius: 30px;
-             background-color:white;
+             background-color:;
 			 width:280px;
-			 height:40px;
+			 height:20px;
      
         }
         .download{
@@ -412,6 +414,7 @@
              background-color:lightgreen;
             position:absolute;
             left: 55%;
+            
             padding: 2px;
             
 
@@ -425,7 +428,7 @@
       right: 0;
       width: 200px;
       height: 100%;
-      background-color: #f0f0f0;
+      background-color: #000;
       z-index: 999;
     }
 
@@ -444,5 +447,4 @@
       font-size: 20px;
     }
 
-
-
+		
