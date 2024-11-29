@@ -50,11 +50,7 @@
     /* CSS code to display a background image */
 
 
-  background-image:url('i.jpg'); /* Replace with your image path */
-  background-size: cover; /* Adjust image size as needed */
-  background-position: center; /* Adjust image position as needed */
-  background-repeat: repeat; /* Prevent image repetition */
-         color:#fff;   
+    
           
         }
         .logo-container {
@@ -125,7 +121,7 @@
              height:40px;
     margin: 10px;
             border-radius: 30px;
-             background-color:lightgreen;
+             background-color:black;
              color:#fff;
              position:absolute;
              top: 10%;
@@ -171,7 +167,7 @@
 		
 		a {
 			text-decoration:under-line wavy;
-			color: blue ;
+			color: white ;
 			text-align: left;
 			
 			
@@ -179,7 +175,7 @@
 		}
 		
 		a:hover {
-			color: #23527c;
+			color: #fff;
 		}
  body {
            
@@ -320,27 +316,19 @@
             margin-right: 10px;
         }
 
-         .odds-card {
-            margin: 10px;
-            padding: 30px;
-			 
-            border: 2px solid #000;
-            border-radius: 30px;
-             background-color:gray;
-			 width:280px;
-			 height:20px;
-     
-        }
+        
         .download{
-            width:120px;
+            width:95px;
              height:40px;
-            border-radius: 30px;
+            border-radius: 50px;
             
-             background-color:lightgreen;
+             background-color:#000;
             position:absolute;
-            left: 55%;
+             
+            left: 60%;
             
-            padding: 2px;
+            
+            
             
 
             
@@ -353,13 +341,14 @@
       right: 0;
       width: 200px;
       height: 100%;
-      background-color: #000;
+      background-color: #fff;
       z-index: 999;
+    border-color: black;
     }
 
     .menu-header {
       padding: 10px;
-      background-color: #ccc;
+      background-color: #fff;
       text-align: right;
     }
 
@@ -372,4 +361,5 @@
       font-size: 20px;
     }
 
-			
+
+		
