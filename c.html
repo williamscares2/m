@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="o.css">
+  <link rel="stylesheet" href="wil.css">
+
+  <title>Contact and Legal Information</title>
+  <style>
+    /* Add your CSS styles here to customize the appearance */
+    .contact-info {
+      text-align: center;
+    }
+    .privacy-policy, .terms-conditions {
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-info">
+    <h2>Contact Us</h2>
+  
+    <p>
+      
+      
+      </p>
+  </div>   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+    
+  <form id="myForm">
+         <img src="g.jpg" class="g">
+ 
+        <br>
+    <label for="message"><h2>Email Us</h2></label><br>
+    <textarea id="message" name="message" placeholder="Type here... include Phone number or Email" style="width: 300px; height: 100px; font-size: 15px; padding: 10px; border: 2px solid #000; border-radius: 16px;" required></textarea><br>
+
+    <button type="submit" class="download-btn">Send</button>
+  </form>
+
+  <script>
+    emailjs.init("QKarohsQqRIAA6_mA"); // Replace with your user ID
+
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+            const message = document.getElementById("message").value;
+
+      const templateParams = {
+        to_email: "email", // Replace with your email address
+        
+        message: message
+      };
+
+      emailjs.send("service_p3i4s9q", "template_fcv5tpo", templateParams)
+        .then(function(response) {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("Message sent successfully, wait for reply from admin");
+        })
+        .catch(function(error) {
+          console.log("FAILED...", error);
+          alert("An error occurred. Please try again.");
+        });
+    });
+  </script>
+  <h2>WhatsApp Us</h2>
+   <p>
+      <a href="https://wa.me/256753266873" target="_blank">
+        <img src="w.jpg" class="w">
+        Message Us
+      </a>
+    
+    </p>
+
+  <style>
+    /* Add your CSS styles here to customize the appearance */
+    .policy-container {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .policy-title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="policy-container">
+    <h2 class="policy-title">Privacy Policy</h2>
+    <p>
+      We respect your privacy and are committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and safeguard your data when you visit our website.
+    </p>
+
+    <h3>Information We Collect</h3>
+    <p>
+      We may collect the following information:
+      <ul>
+        <li>Personal Information: Files you download</li>
+        <li>Usage Data: Information about how you interact with our website.</li>
+      </ul>
+    </p>
+
+    <h2 class="policy-title">Terms and Conditions</h2>
+    <p>
+      By using our website, you agree to these Terms and Conditions.
+    </p>
+
+    <h3>File Downloads</h3>
+    <p>
+      <ul>
+        <li>License: We grant you a limited, non-exclusive license to download and use the files on our website for personal, non-commercial purposes.</li>
+        <li>Intellectual Property: All content on this website, including files, is protected by copyright and other intellectual property laws.</li>
+        <li>User Conduct: You agree not to:
+          <ul>
+            <li>Use the files for illegal or unauthorized purposes.</li>
+            <li>Modify, distribute, or transmit the files without our permission.</li>
+            <li>Attempt to gain unauthorized access to our systems.</li>
+          </ul>
+        </li>
+      </ul>
+    </p>
+
+    </div>
+
+  <style>
+    /* Add your CSS styles here to customize the appearance */
+    .disclaimer {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .disclaimer-title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="disclaimer">
+    <h2 class="disclaimer-title">Disclaimer</h2>
+    <p>
+      The information provided on this website is for general informational purposes only and should not be construed as professional advice. While we strive to provide accurate and up-to-date information, we make no warranties or guarantees regarding the completeness or accuracy of the content. 
+
+      It's important to consult with appropriate professionals for advice tailored to your specific circumstances. We are not liable for any damages or losses arising from the use of or reliance on the information presented on this website.
+    </p>
+  </div>
+    <h5>All rights are reserved by wil.solutions</h5>
+  <h1>.</h1>
+    <center>
+        <b>
+    <footer>
+        <a href="index.html">Home</a>
+         <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+    </footer>
+        </b>
+    </center>
+  
+</body>
+</html>

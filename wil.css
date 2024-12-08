@@ -1,0 +1,480 @@
+
+    
+    #search-bar {
+      padding: 20px;
+      border: 2px solid #000;
+      border-radius: 20px;
+    }
+
+    #suggestions {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      position: absolute;
+        top:180px;
+        left:20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-top: none;
+      z-index: 1;
+    }
+
+    #suggestions li {
+      padding: 10px;
+      cursor: pointer;
+      border-bottom: 2px solid #ccc;
+    }
+
+    #suggestions li:hover {
+      background-color: #f0f0f0;
+    }
+  .product {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.quiz-container {
+    font-size: 30px;
+    text-align: center;
+    border-radius:30px;
+    border-color: #000;
+    background-color: antiquewhite;
+    
+}
+#nextButton {
+    display: none; /* Initially hidden */
+    margin-top: 10px;
+}
+#choices li {
+    list-style: none;
+    margin: 30px 0;
+    cursor: pointer;
+    border-radius:30px;
+    border: 2px solid black;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+    border-radius:30px;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
+    border-radius:30px;
+}
+ .logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+      body {
+           
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+.logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+ .logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+ .post-container {
+            width: 80%;
+            margin: 20px auto;
+            border: 3px solid #000;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .post-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .post-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .post-author {
+            font-weight: bold;
+        }
+        
+        .post-time {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .post-content {
+            margin-bottom: 20px;
+        }
+        
+        .post-image {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        
+        .post-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .post-likes, .post-comments, .post-views {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        
+        .post-likes svg, .post-comments svg, .post-views svg {
+            margin-right: 5px;
+        }
+        
+        .post-likes {
+            color: #f00;
+        }
+        
+        .post-comments {
+            color: #0f0;
+        }
+        
+        .post-views {
+            color: #00f;
+        }
+     .v{
+            width:25px;
+            border-radius: 80px;
+            
+            
+           
+        }
+     .g{
+            width:20px;
+            border-radius: 30px;
+            
+            
+           
+        }
+.b{
+            width:100px;
+             height:40px;
+            border-radius: 30px;
+             background-color:lightgreen;
+             color:#fff;
+             position:absolute;
+             top: 15%;
+            left: 70%;
+}
+.menu{
+            
+            border-radius: 7px;
+	width:40px;
+	height:30px;
+             
+             position:absolute;
+             top: 5%;
+            left: 80%;
+}
+.menu1{
+            
+            border-radius: 7px;
+	width:60px;
+	height:30px;
+             
+             position:absolute;
+             top: 10%;
+            left: 80%;
+}
+
+
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		
+		th, td {
+			border: 2px solid darkgreen;
+			padding: 7px;
+			text-align:none;
+		}
+		
+		th {
+			background-color: lightgreen;
+		}
+		
+		a {
+			text-decoration:under-line wavy;
+			color: blue ;
+			text-align: left;
+			
+			
+			
+		}
+		
+		a:hover {
+			color: #23527c;
+		}
+ body {
+           
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+ body {
+           
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .logo-container {
+            position: fixed; /* Keep the logo centered */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the logo */
+            text-align: center;
+            opacity: 100; /* Initial opacity for logo */
+            transition: opacity 2s ease-in-out; /* Transition for fade-out */
+            
+            
+        }
+        .logo-container img {
+            width: 150px;
+            border-radius: 90px;
+            
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            position: relative;
+        }
+        .w{
+            width:70px;
+            border-radius: 30px;
+       }
+    .g{width:80px;
+        border-radius: 30px
+    }
+    .img-container {
+        
+  position: relative;
+  display: inline-block;
+	    
+}
+
+.img-container img {
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.img-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 60px;
+	
+  box-shadow: 0 0 0 4px rgb(255, 105, 135),  /* Red */
+              0 0 0 8px rgb(255, 215, 0),   /* Yellow */
+              0 0 0 12px rgb(0, 191, 255);  /* Blue */
+  animation: change-color 1s infinite;
+}
+
+@keyframes change-color {
+  0% {
+    box-shadow: 0 0 0 4px rgb(255, 105, 135), 
+                0 0 0 8px rgb(255, 215, 0), 
+                0 0 0 12px rgb(0, 191, 255);
+  }
+  
+}
+        .hhh{
+            width:50px;
+            border-radius: 30px;
+            
+            
+           
+        }
+        
+        .info-container {
+            position: absolute;
+            top: 2000%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: ;
+        }
+        
+        .bottom-nav {
+            position: fixed;
+            bottom: 20px;
+            left: 270px;
+            width: 70px;
+            height:140px;
+            background-color: black;
+            color: #fff;
+            padding: 1px 1px;
+            text-align: right;
+            border-top: 1px solid #000;
+            border: 1px solid #000;
+            border-radius:30px;
+        }
+        
+        .bottom-nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .bottom-nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        .bottom-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .icon-btn {
+            font-size: 25px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+         .odds-card {
+            margin: 20px;
+            padding: 20px;
+			 
+            border: 3px solid #000;
+            border-radius: 30px;
+			 width:100px;
+			 height:140px;
+     
+        }
+        .download{
+            width:100px;
+             height:50px;
+            border-radius: 10px;
+             background-color:lightgreen;
+
+            
+            
+}
+.card {
+  border: 5px solid #000;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 180px;
+  height: 140px;
+  margin-bottom: 10px;
+}
+.c{
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+
+
+.read-more {
+  color: blue;
+  text-decoration: none;
+  
+}
+        

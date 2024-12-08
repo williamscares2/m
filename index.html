@@ -1,0 +1,201 @@
+﻿<html lang="en"><head>
+    <meta charset="UTF-8"><link rel="stylesheet" href="o.css">
+    <link rel="stylesheet" href="wil.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wil</title>
+   
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+    <header><img src="logo.jpg" width="80px" height="80px" style="border-radius:50px">
+        
+       
+    </header>
+
+
+
+  <title>Keyword Search Bar</title>
+
+  
+
+  <input type="text" id="search-bar" placeholder="Search... for More Subjects                          🔍">
+  <ul id="suggestions"></ul>
+    <script>const searchBar = document.getElementById('search-bar');
+    const suggestions = document.getElementById('suggestions');
+
+    const keywords = {
+  mathematics: {
+    suggestion: 'Mathematics',
+    link: 'more.html'
+  },
+  physics: {
+    suggestion: 'Physics',
+    link: 'more.html'
+  },
+  chemistry: {
+    suggestion: 'Chemistry',
+    link: 'more.html'
+  },
+  biology: {
+    suggestion: 'Biology',
+    link: 'more.html'
+  },
+  cre: {
+    suggestion: 'CRE',
+    link: 'more.html'
+  },
+history: {
+    suggestion: 'History',
+    link: 'more.html'
+  },
+        english: {
+    suggestion: 'English',
+    link: 'more.html'
+  },
+geography: {
+    suggestion: 'Geography',
+    link: 'more.html'
+  }
+  // Add more keywords and suggestions as needed
+};
+
+    searchBar.addEventListener('input', () => {
+      const keyword = searchBar.value.toLowerCase();
+      const suggestionsList = [];
+
+      for (const key in keywords) {
+        if (key.startsWith(keyword)) {
+          suggestionsList.push(keywords[key]);
+        }
+      }
+
+      suggestions.innerHTML = '';
+
+      if (suggestionsList.length > 0) {
+        suggestionsList.forEach(suggestion => {
+          const li = document.createElement('li');
+          li.textContent = suggestion.suggestion;
+          li.addEventListener('click', () => {
+            window.location.href = suggestion.link;
+          });
+          suggestions.appendChild(li);
+        });
+      } else {
+        suggestions.innerHTML = '<li>No more subjects</li>';
+      }
+    });
+    </script>
+    
+    <main>
+        <div class="container">
+            <!-- File Card 1 -->
+            <div class="file-card">
+                <h3>Mathematics</h3>
+                <p>This file contains a number of Tasks to be done that boost one's knowledge</p>
+                <button class="download-btn" onclick="location.href='math.pdf';" download="math.pdf">Download</button>
+            </div>
+            <!-- File Card 2 -->
+            <div class="file-card">
+                <h3>Physics</h3>
+                <p>Ugandan students investigate the relationship between solar radiation and local weather patterns, analyzing data collected from a homemade weather station.</p>
+                <button class="download-btn" onclick="location.href='phy.pdf';" download="phy.pdf">Download</button>
+            </div>
+            <!-- File Card 3 -->
+            <div class="file-card">
+                <h3>Biology</h3>
+                <p>Ugandan students investigate the antimicrobial properties of local plant extracts against common bacterial infections, exploring potential natural remedies for community health.</p>
+                <button class="download-btn" onclick="location.href='bio.pdf';" download="bio.pdf">Download</button>
+            </div>
+        </div>
+        <h3>For more subjects click below</h3>
+      <div class="product">
+       <a href="more.html">
+            <img src="subjects.jpg" alt="Product 2">
+            <p>More Subjects</p>
+        </a>
+    </div>
+       </main>
+    <center>
+        <b>
+    <footer>
+        <a href="index.html">Home</a>
+         <a href="blog.html">Blog</a>
+        <a href="c.html">Contact</a>
+      <a href="about.html">About</a>
+    </footer>
+        </b>
+    </center>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  
+
+    
+  <form id="myForm">
+        <br>
+    <label for="message"><h2>Message Us</h2></label><br>
+        
+    <textarea id="message" name="message" placeholder="Type here... include Phone number or Email" style="width: 300px; height: 100px; font-size: 15px; padding: 10px; border: 2px solid #000; border-radius: 16px;" required=""></textarea><br>
+  
+    <button type="submit" class="download-btn">Send</button>
+       <script>emailjs.init("QKarohsQqRIAA6_mA"); // Replace with your user ID
+
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+            const message = document.getElementById("message").value;
+
+      const templateParams = {
+        to_email: "email", // Replace with your email address
+        
+        message: message
+          
+      };
+
+      emailjs.send("service_p3i4s9q", "template_fcv5tpo", templateParams)
+        .then(function(response) {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("Message sent successfully, wait for reply from admin");
+        })
+        .catch(function(error) {
+          console.log("FAILED...", error);
+          alert("An error occurred. Please try again.");
+        });
+    });
+    </script>
+  </form>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css"> 
+
+
+    <h2>Shop on our site</h2>
+    <center>
+    <div class="product">
+        <a href="a.html">
+            <img src="a.jpg" alt="Product 1">
+            <p>Repaired Samsung J3 Pro</p>
+        </a>
+    </div>
+
+    <div class="product">
+        <a href="b.html">
+            <img src="b.jpg" alt="Product 2">
+            <p>Airpods Tecno version</p>
+        </a>
+    </div>
+     <div class="product">
+        <a href="d.html">
+            <img src="c.jpg" alt="Product 2">
+            <p>Crane Paper reams</p>
+        </a>
+    </div>
+
+    
+    
+        <h2>.</h2>
+
+</center></body></html>
